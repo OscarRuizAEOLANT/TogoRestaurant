@@ -98,13 +98,13 @@
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">
-                                        Qté
+                                        Cantidad
                                     </div>
                                 </div>
                                 <input type="number"
                                     name="quantity"
                                     class="form-control"
-                                    placeholder="Qté"
+                                    placeholder="Cantidad"
                                     value="{{ $sale->quantity }}"
                                 >
                             </div>
@@ -117,7 +117,7 @@
                                 <input type="number"
                                     name="total_price"
                                     class="form-control"
-                                    placeholder="Prix"
+                                    placeholder="Precio"
                                      value="{{ $sale->total_price }}"
                                 >
                                 <div class="input-group-append">
@@ -153,7 +153,7 @@
                                 <input type="number"
                                     name="change"
                                     class="form-control"
-                                    placeholder="Reste"
+                                    placeholder="Resta"
                                      value="{{ $sale->change }}"
                                 >
                                 <div class="input-group-append">
@@ -165,30 +165,30 @@
                             <div class="form-group">
                                 <select name="payment_type" class="form-control">
                                     <option value="" selected disabled>
-                                        Type de paiement
+                                        Modo de pago
                                     </option>
                                     <option value="cash"
                                         {{ $sale->payment_type === "cash" ? "selected" : ""}}
                                         >
-                                        Espéce
+                                        Efectivo
                                     </option>
                                     <option value="card"
                                     {{ $sale->payment_type === "card" ? "selected" : ""}}
                                     >
-                                        Carte bancaire
+                                        Tarjeta
                                     </option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <select name="payment_status" class="form-control">
                                     <option value="" selected disabled>
-                                        Etat de paiement
+                                        Estado de pago
                                     </option>
                                     <option value="paid" {{ $sale->payment_status === "paid" ? "selected" : ""}}>
-                                        Payé
+                                        Pagado
                                     </option>
                                     <option value="unpaid" {{ $sale->payment_status === "unpaid" ? "selected" : ""}}>
-                                        Impayé
+                                        Pago pendiente
                                     </option>
                                 </select>
                             </div>
@@ -199,7 +199,7 @@
                                     "
                                     class="btn btn-primary"
                                 >
-                                    Valider
+                                    Validar
                                 </button>
                             </div>
                         </div>

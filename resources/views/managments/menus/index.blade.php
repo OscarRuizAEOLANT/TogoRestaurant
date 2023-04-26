@@ -24,12 +24,12 @@
                                     <thead>
                                         <tr>
                                             <th>Id</th>
-                                            <th>Titre</th>
-                                            <th>Description</th>
-                                            <th>Prix</th>
-                                            <th>Catégorie</th>
-                                            <th>Image</th>
-                                            <th>Action</th>
+                                            <th>Titulo</th>
+                                            <th>Descripción</th>
+                                            <th>Precio</th>
+                                            <th>Categoria</th>
+                                            <th>Imagen</th>
+                                            <th>Acción</th>
                                         </tr>
                                     </thead>
                                     <tbody>

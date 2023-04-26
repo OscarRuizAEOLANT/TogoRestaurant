@@ -22,7 +22,7 @@
                                         <input
                                             type="text" name="name" id="name"
                                             class="form-control"
-                                            placeholder="Nom"
+                                            placeholder="Nombre"
                                             value="{{  $table->name }}"
                                         >
                                     </div>
@@ -37,7 +37,7 @@
                                     </div>
                                     <div class="form-group">
                                         <button class="btn btn-primary">
-                                            Valider
+                                            Validar
                                         </button>
                                     </div>
                                 </form>

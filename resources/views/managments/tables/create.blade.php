@@ -13,7 +13,7 @@
                             </div>
                             <div class="col-md-8">
                                 <h3 class="text-secondary border-bottom mb-3 p-2">
-                                    <i class="fas fa-plus"></i> Ajouter une table
+                                    <i class="fas fa-plus"></i> Agregar mesa
                                 </h3>
                                 <form action="{{ route("tables.store") }}" method="post">
                                     @csrf
@@ -21,7 +21,7 @@
                                         <input
                                             type="text" name="name" id="name"
                                             class="form-control"
-                                            placeholder="Nom"
+                                            placeholder="Nombre"
                                         >
                                     </div>
                                     <div class="form-group">
@@ -29,13 +29,13 @@
                                             <option value="" selected disabled>
                                                 Disponible
                                             </option>
-                                            <option value="1">Oui</option>
-                                            <option value="0">Non</option>
+                                            <option value="1">Si</option>
+                                            <option value="0">No</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
                                         <button class="btn btn-primary">
-                                            Valider
+                                            Validar
                                         </button>
                                     </div>
                                 </form>

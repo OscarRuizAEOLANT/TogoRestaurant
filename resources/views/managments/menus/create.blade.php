@@ -13,7 +13,7 @@
                             </div>
                             <div class="col-md-8">
                                 <h3 class="text-secondary border-bottom mb-3 p-2">
-                                    <i class="fas fa-plus"></i> Ajouter un menu
+                                    <i class="fas fa-plus"></i> Agregar entrada de menú
                                 </h3>
                                 <form action="{{ route("menus.store") }}" method="post" enctype="multipart/form-data">
                                     @csrf
@@ -21,7 +21,7 @@
                                         <input
                                             type="text" name="title" id="title"
                                             class="form-control"
-                                            placeholder="Titre"
+                                            placeholder="Titulo"
                                         >
                                     </div>
                                     <div class="form-group">
@@ -30,7 +30,7 @@
                                             rows="5"
                                             cols="30"
                                             class="form-control"
-                                            placeholder="Description"
+                                            placeholder="Descripción"
                                         ></textarea>
                                     </div>
                                     <div class="input-group mb-3">
@@ -42,7 +42,7 @@
                                         <input type="number"
                                             name="price"
                                             class="form-control"
-                                            placeholder="Prix"
+                                            placeholder="Precio"
                                         >
                                         <div class="input-group-append">
                                             <div class="input-group-text">
@@ -68,7 +68,7 @@
                                     </div>
                                     <div class="form-group">
                                         <select name="category_id" id="category_id" class="form-control">
-                                            <option value="" selected disabled>Choisir une catégorie</option>
+                                            <option value="" selected disabled>Selecciona una categoría</option>
                                             @foreach ($categories as $category)
                                                 <option value="{{ $category->id }}">
                                                     {{ $category->title }}
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="form-group">
                                         <button class="btn btn-primary">
-                                            Valider
+                                            Validar
                                         </button>
                                     </div>
                                 </form>

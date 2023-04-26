@@ -22,7 +22,7 @@
                                         <input
                                             type="text" name="title" id="title"
                                             class="form-control"
-                                            placeholder="Titre"
+                                            placeholder="Titulo"
                                             value="{{ $menu->title }}"
                                         >
                                     </div>
@@ -32,7 +32,7 @@
                                             rows="5"
                                             cols="30"
                                             class="form-control"
-                                            placeholder="Description"
+                                            placeholder="Descripción"
                                         >{{ $menu->description }}</textarea>
                                     </div>
                                     <div class="input-group mb-3">
@@ -44,7 +44,7 @@
                                         <input type="number"
                                             name="price"
                                             class="form-control"
-                                            placeholder="Prix"
+                                            placeholder="Precio"
                                             value="{{ $menu->price }}"
                                         >
                                         <div class="input-group-append">
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="form-group">
                                         <select name="category_id" id="category_id" class="form-control">
-                                            <option value="" selected disabled>Choisir une catégorie</option>
+                                            <option value="" selected disabled>Selecciona una categoría</option>
                                             @foreach ($categories as $category)
                                                 <option
                                                     {{ $category->id === $menu->category->id ? "selected" : ""}}
@@ -90,7 +90,7 @@
                                     </div>
                                     <div class="form-group">
                                         <button class="btn btn-primary">
-                                            Valider
+                                            Validar
                                         </button>
                                     </div>
                                 </form>

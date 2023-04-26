@@ -3,7 +3,7 @@
         font-weight-bold list-group-item-action
         list-group-item-light">
         <i class="fas fa-th-list"></i>
-            Catégories
+            Categorías
     </a>
     <a href="{{ route("menus.index") }}" class="list-group-item
         font-weight-bold list-group-item-action
@@ -14,11 +14,11 @@
         font-weight-bold list-group-item-action
         list-group-item-light">
         <i class="fas fa-chair"></i>
-        Tables</a>
+        Mesas</a>
     <a href="{{ route("servants.index") }}" class="list-group-item
         font-weight-bold list-group-item-action
         list-group-item-light">
         <i class="fas fa-user-cog"></i>
-        Sérveurs
+        Servidores
     </a>
 </ul>

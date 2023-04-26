@@ -4,11 +4,11 @@
             <th>Id</th>
             <th>Menus</th>
             <th>Tables</th>
-            <th>Sérveur</th>
-            <th>Quantité</th>
+            <th>Servidor</th>
+            <th>Cantidad</th>
             <th>Total</th>
-            <th>Type de paiement</th>
-            <th>Etat de paiement</th>
+            <th>Modo de pago</th>
+            <th>Estado de pago</th>
         </tr>
     </thead>
     <tbody>

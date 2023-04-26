@@ -27,7 +27,7 @@
                         <div class="col-md-12 mb-3">
                             <div class="form-group">
                                 <a href="{{ route("sales.index") }}" class="btn btn-outline-secondary float-right">
-                                    Toutes les ventes
+                                    Todas las ventas
                                 </a>
                             </div>
                         </div>
@@ -81,12 +81,12 @@
                                                                 </h5>
                                                                 <h5 class="font-weight-bold mt-2">
                                                                     <span class="badge badge-light">
-                                                                        Qté : {{ $sale->quantity }}
+                                                                        Cantidad : {{ $sale->quantity }}
                                                                     </span>
                                                                 </h5>
                                                                 <h5 class="font-weight-bold mt-2">
                                                                     <span class="badge badge-light">
-                                                                        Prix : {{ $sale->total_price }} DH
+                                                                        Precio : {{ $sale->total_price }} DH
                                                                     </span>
                                                                 </h5>
                                                                 <h5 class="font-weight-bold mt-2">
@@ -96,19 +96,19 @@
                                                                 </h5>
                                                                 <h5 class="font-weight-bold mt-2">
                                                                     <span class="badge badge-light">
-                                                                        Reste : {{ $sale->change }} DH
+                                                                        Resta : {{ $sale->change }} DH
                                                                     </span>
                                                                 </h5>
                                                                 <h5 class="font-weight-bold mt-2">
                                                                     <span class="badge badge-light">
-                                                                        Type de paiement :
+                                                                        Modo de pago :
                                                                         {{ $sale->payment_type === "cash" ?
-                                                                             "Espéce" : "Carte bancaire" }}
+                                                                             "Efectivo" : "Tarjeta" }}
                                                                     </span>
                                                                 </h5>
                                                                 <h5 class="font-weight-bold mt-2">
                                                                     <span class="badge badge-light">
-                                                                        Etat de paiement :
+                                                                        Estado de pago :
                                                                         {{ $sale->payment_status === "paid" ?
                                                                              "Payé" : "Impayé" }}
                                                                     </span>
@@ -214,7 +214,7 @@
                             <div class="form-group">
                                 <select name="servant_id" class="form-control">
                                     <option value="" selected disabled>
-                                        Sérveur
+                                        Servidor
                                     </option>
                                     @foreach ($servants as $servant)
                                         <option value="{{ $servant->id }}">
@@ -226,13 +226,13 @@
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">
-                                        Qté
+                                        Cantidad
                                     </div>
                                 </div>
                                 <input type="number"
                                     name="quantity"
                                     class="form-control"
-                                    placeholder="Qté"
+                                    placeholder="Cantidad"
                                 >
                             </div>
                             <div class="input-group mb-3">
@@ -244,7 +244,7 @@
                                 <input type="number"
                                     name="total_price"
                                     class="form-control"
-                                    placeholder="Prix"
+                                    placeholder="Precio"
                                 >
                                 <div class="input-group-append">
                                     <div class="input-group-text">
@@ -278,7 +278,7 @@
                                 <input type="number"
                                     name="change"
                                     class="form-control"
-                                    placeholder="Reste"
+                                    placeholder="Resta"
                                 >
                                 <div class="input-group-append">
                                     <div class="input-group-text">
@@ -289,20 +289,23 @@
                             <div class="form-group">
                                 <select name="payment_type" class="form-control">
                                     <option value="" selected disabled>
-                                        Type de paiement
+                                        Modo de pago
                                     </option>
                                     <option value="cash">
-                                        Espéce
+                                        Efectivo
                                     </option>
                                     <option value="card">
-                                        Carte bancaire
+                                        Tarjeta de debito
+                                    </option>
+                                    <option value="card">
+                                        Tarjeta de credito
                                     </option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <select name="payment_status" class="form-control">
                                     <option value="" selected disabled>
-                                        Etat de paiement
+                                        Estado de pago
                                     </option>
                                     <option value="paid">
                                         Payé
@@ -319,7 +322,7 @@
                                     "
                                     class="btn btn-primary"
                                 >
-                                    Valider
+                                    Validar
                                 </button>
                             </div>
                         </div>

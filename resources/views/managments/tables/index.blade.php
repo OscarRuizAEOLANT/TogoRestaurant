@@ -24,9 +24,9 @@
                                     <thead>
                                         <tr>
                                             <th>Id</th>
-                                            <th>Nom</th>
+                                            <th>Nombre</th>
                                             <th>Disponible</th>
-                                            <th>Action</th>
+                                            <th>Accción</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -41,11 +41,11 @@
                                                 <td>
                                                     @if ($table->status)
                                                         <span class="badge badge-success">
-                                                            Oui
+                                                            Si
                                                         </span>
                                                     @else
                                                         <span class="badge badge-danger">
-                                                            Non
+                                                            No
                                                         </span>
                                                     @endif
                                                 </td>

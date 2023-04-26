@@ -131,63 +131,63 @@ return [
 
     'custom' => [
         'title' => [
-            'required' => 'Le champ titre est obligatoire',
-            'unique' => 'Le titre existe déjà',
+            'required' => 'El campo del título es obligatorio',
+            'unique' => 'El titulo ya existe',
         ],
         'description' => [
-            'required' => 'Le champ description est obligatoire',
+            'required' => 'El campo de descripción es obligatorio',
         ],
         'price' => [
-            'required' => 'Le champ prix est obligatoire',
+            'required' => 'El campo de precio es obligatorio',
         ],
         'image' => [
-            'required' => 'Le champ image est obligatoire',
-            'image' => 'Veuillez choisir une image valide',
-            'mimes' => 'Seuls les fichiers : :values sont accéptés',
-            'uploaded' => 'la taille du fichier :attribute ne doit pas dépasser 2mg',
+            'required' => 'El campo de la imagen es obligatorio',
+            'image' => 'Por favor elige una imagen válida',
+            'mimes' => 'Solo se aceptan archivos de ::valores',
+            'uploaded' => 'el tamaño del archivo :attribute no debe exceder los 2 mg',
         ],
         'category_id' => [
-            'required' => 'Le champ catégorie est obligatoire',
+            'required' => 'El campo de nombre es obligatorio',
         ],
         'name' => [
-            'required' => 'Le champ nom est obligatoire',
-            'unique' => 'Le nom existe déjà',
+            'required' => 'El campo de nombre es obligatorio',
+            'unique' => 'El nombre ya existe',
         ],
         'status' => [
-            'required' => 'Le champ disponibilité est obligatoire',
+            'required' => 'El campo de disponibilidad es obligatorio',
         ],
         'quantity' => [
-            'required' => 'Le champ quantité est obligatoire',
+            'required' => 'El campo de cantidad es obligatorio',
         ],
         'total_price' => [
-            'required' => 'Le champ prix TTC est obligatoire',
+            'required' => 'El campo de precio con impuestos incluidos es obligatorio',
         ],
         'total_received' => [
-            'required' => 'Le champ total est obligatoire',
+            'required' => 'El campo total es obligatorio',
         ],
         'payment_status' => [
-            'required' => 'Le champ statut de paiement est obligatoire',
+            'required' => 'El campo de estado de pago es obligatorio',
         ],
         'payment_type' => [
-            'required' => 'Le champ type de paiement est obligatoire',
+            'required' => 'El campo de tipo de pago es obligatorio',
         ],
         'menu_id' => [
-            'required' => 'Le champ menu est obligatoire',
+            'required' => 'El campo del menú es obligatorio',
         ],
         'table_id' => [
-            'required' => 'Le champ table est obligatoire',
+            'required' => 'El campo de la tabla es obligatorio',
         ],
         'servant_id' => [
-            'required' => 'Le champ sérveur est obligatoire',
+            'required' => 'El campo del servidor es obligatorio',
         ],
         'change' => [
-            'required' => 'Le champ reste est obligatoire',
+            'required' => 'El campo de descanso es obligatorio',
         ],
         'from' => [
-            'required' => 'Le champ date de début est obligatoire',
+            'required' => 'El campo de fecha de inicio es obligatorio',
         ],
         'to' => [
-            'required' => 'Le champ date de fin est obligatoire',
+            'required' => 'El campo de fecha de finalización es obligatorio',
         ],
     ],
 

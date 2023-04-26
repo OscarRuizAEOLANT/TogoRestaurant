@@ -22,13 +22,13 @@
                                         <input
                                             type="text" name="title" id="title"
                                             class="form-control"
-                                            placeholder="Titre"
+                                            placeholder="Titulo"
                                             value="{{$category->title }}"
                                         >
                                     </div>
                                     <div class="form-group">
                                         <button class="btn btn-primary">
-                                            Valider
+                                            Validar
                                         </button>
                                     </div>
                                 </form>

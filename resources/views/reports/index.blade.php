@@ -11,7 +11,7 @@
                             <div class="col-md-12">
                                 <div class="d-flex flex-row justify-content-between align-items-center border-bottom pb-1">
                                     <h3 class="text-secondary">
-                                        <i class="fas fa-bars"></i> Rapports
+                                        <i class="fas fa-bars"></i> Reportes
                                     </h3>
                                     <a href="{{ route("home") }}" class="btn btn-outline-secondary">
                                         <i class="fa fa-chevron-left fa-x2"></i>
@@ -31,7 +31,7 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <button class="btn btn-primary">
-                                                            Afficher le rapport
+                                                        Vista del informe
                                                         </button>
                                                     </div>
                                                 </form>
@@ -52,8 +52,8 @@
                                                 <th>Sérveur</th>
                                                 <th>Quantité</th>
                                                 <th>Total</th>
-                                                <th>Type de paiement</th>
-                                                <th>Etat de paiement</th>
+                                                <th>Modo de pago</th>
+                                                <th>Estado de pago</th>
                                             </tr>
                                         </thead>
                                         <tbody>

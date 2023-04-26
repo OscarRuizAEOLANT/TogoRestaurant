@@ -22,7 +22,7 @@
                                         <input
                                             type="text" name="name" id="name"
                                             class="form-control"
-                                            placeholder="Nom & Prénom"
+                                            placeholder="Nombre completo"
                                             value="{{ $servant->name }}"
                                         >
                                     </div>
@@ -30,13 +30,13 @@
                                         <input
                                             type="text" name="address" id="address"
                                             class="form-control"
-                                            placeholder="Addresse"
+                                            placeholder="Dirección"
                                             value="{{ $servant->address }}"
                                         >
                                     </div>
                                     <div class="form-group">
                                         <button class="btn btn-primary">
-                                            Valider
+                                            Validar
                                         </button>
                                     </div>
                                 </form>

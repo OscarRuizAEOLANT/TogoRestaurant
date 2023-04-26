@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed' => 'Email ou mot de passe est incorrect.',
-    'throttle' => 'Veuillez réessayer aprés :seconds secondes.',
+    'failed' => 'Email o contraseña es incorrecta.',
+    'throttle' => 'Vuelva a intentarlo después de :segundos segundos.',
 
 ];

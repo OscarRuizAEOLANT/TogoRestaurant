@@ -26,8 +26,8 @@
                                             <th>Sérveur</th>
                                             <th>Quantité</th>
                                             <th>Total</th>
-                                            <th>Type de paiement</th>
-                                            <th>Etat de paiement</th>
+                                            <th>Modo de pago</th>
+                                            <th>Estado de pago</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
