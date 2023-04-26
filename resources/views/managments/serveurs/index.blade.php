@@ -14,7 +14,7 @@
                             <div class="col-md-8">
                                 <div class="d-flex flex-row justify-content-between align-items-center border-bottom pb-1">
                                     <h3 class="text-secondary">
-                                        <i class="fas fa-user-cog"></i> Servidores
+                                        <i class="fas fa-user-cog"></i> Personal
                                     </h3>
                                     <a href="{{ route("servants.create") }}" class="btn btn-primary">
                                         <i class="fas fa-plus fa-x2"></i>

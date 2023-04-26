@@ -19,6 +19,6 @@
         font-weight-bold list-group-item-action
         list-group-item-light">
         <i class="fas fa-user-cog"></i>
-        Servidores
+        Personal
     </a>
 </ul>

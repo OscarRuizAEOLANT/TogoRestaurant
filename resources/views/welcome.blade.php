@@ -77,6 +77,7 @@
             @endif
 
             <div class="content">
+                <img src="../../public/images/menus/logoTogo.jpg" alt="LogoTOGO">
                 <div class="title m-b-md">
                    <i class="fas fa-hamburger"></i> TOGO
                 </div>
